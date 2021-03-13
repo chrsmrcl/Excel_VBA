@@ -3,7 +3,7 @@
 Sub FindFormulaCells()  
     For Each cell In ActiveSheet.UsedRange  
         If cell.HasFormula() = True Then  
-            cell.Interior.ColorIndex = 24  
+        cell.Interior.ColorIndex = 24  'blue
         End If  
     Next cell  
 End Sub 
